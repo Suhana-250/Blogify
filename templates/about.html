@@ -1,0 +1,35 @@
+{% include 'header.html' %}
+        <!-- Page Header-->
+        <header class="masthead" style="background: url('{{ url_for('static', filename='assets/img/about.jpg') }}') no-repeat center; background-size: cover;">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Hello, I'm Cosmos Junior, a 21-year-old Nigerian with a passion for technology, basketball, and personal growth. Currently pursuing a degree in Computer Science Engineering at the University of Dunaújváros in Hungary, I thrive on learning and applying innovative solutions to real-world problems.</p>
+                        <p>Beyond academics, I bring creativity and energy into various projects, including software development and content creation. As a basketball enthusiast, I relate lessons from the court to life and share these perspectives through engaging content. My ultimate goal is to inspire and connect with others, whether through code, sports, or storytelling.</p>
+                        <p>When I'm not coding or playing basketball, you can find me exploring fashion, building meaningful relationships, or working on entrepreneurial ventures. I'm committed to growth, both personally and professionally, and I aim to leave a positive mark in every endeavor I undertake.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        {% include 'footer.html' %}
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
